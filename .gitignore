@@ -163,8 +163,8 @@ dmypy.json
 .pyre/
 
 # Large files
-data\minutes\EURCAD.csv
-data\minutes\EURCHF.csv
-data\minutes\EURGBP.csv
-data\minutes\EURJPY.csv
-data\minutes\EURUSD.csv
+data/minutes/EURCAD.csv
+data/minutes/EURCHF.csv
+data/minutes/EURGBP.csv
+data/minutes/EURJPY.csv
+data/minutes/EURUSD.csv
