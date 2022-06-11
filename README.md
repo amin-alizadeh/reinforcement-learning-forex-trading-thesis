@@ -5,7 +5,7 @@ The msater's thesis can be found at https://www.theseus.fi/handle/10024/502022
 The data files are located at `./data/minutes/`. You can unzip them all by running `make`.
 
 ## Running experiments
-The experiments are grouped under [`./experiments/`](tree/master/experiments). 
+The experiments are grouped under [`./experiments/`](experiments). 
 Each experimnent has a `Makefile` with 3 targets:
 1. train (*default*)
 1. run
