@@ -1,0 +1,53 @@
+_Configurations__run_size:
+  end: 1248
+  start: 0
+_Configurations__run_size_ratio:
+  end: 1.0
+  start: 0.0
+_from_column: true
+a2c: true
+activation: sigmoid
+activation_last_layer: sigmoid
+bars: 10
+batch_size: 32
+cnn: false
+commission: 0.001
+cpu_cores: 2
+data: numpy array of size (1248, 25)
+data_as_df: false
+data_filter: Date>20200200 & Date<=20200414
+episodes: 1000
+epsilon: 1.0
+epsilon_decay: 0.99999
+epsilon_end: 0.1
+epsilon_min: 0.05
+epsilon_start: 1.0
+epsilon_steps: 900
+gpu_cores: 0
+ignore_columns: []
+investment: 20000
+join_columns:
+- Date
+- Hour
+join_columns_data: Dataframe with columns Index(['Date', 'Hour'], dtype='object')
+  and size (1248, 2)
+load_model: null
+loss: mape
+loss_critic: null
+memory_size: 32
+mode: train
+model_directory: /home/amin_alizadeh/bda-deep-rl/experiments/a2c/sigmoid-mape-adadelta_noti_128x256/training/models
+n_stocks: 5
+nn_layers:
+- 128
+- 256
+optimizer: adadelta
+output: /home/amin_alizadeh/bda-deep-rl/experiments/a2c/sigmoid-mape-adadelta_noti_128x256/training
+prices: 'numpy array of size (5,)
+
+  [ 3  8 13 18 23]'
+random_memory_sampling: false
+reward_directory: /home/amin_alizadeh/bda-deep-rl/experiments/a2c/sigmoid-mape-adadelta_noti_128x256/training/rewards
+technical_indicators: false
+train_directory: /home/amin_alizadeh/bda-deep-rl/experiments/a2c/sigmoid-mape-adadelta_noti_128x256/../../../data/hourly/
+train_file: null

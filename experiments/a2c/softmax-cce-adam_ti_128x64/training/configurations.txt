@@ -1,0 +1,52 @@
+_Configurations__run_size:
+  end: 1564
+  start: 0
+_Configurations__run_size_ratio:
+  end: 1.0
+  start: 0.0
+_from_column: true
+a2c: true
+activation: softmax
+activation_last_layer: null
+bars: 10
+batch_size: 32
+cnn: false
+commission: 0.001
+cpu_cores: 1
+data: numpy array of size (1564, 85)
+data_as_df: false
+data_filter: Date<20200100
+episodes: 1000
+epsilon: 1.0
+epsilon_decay: 0.99999
+epsilon_end: 0.1
+epsilon_min: 0.1
+epsilon_start: 1.0
+epsilon_steps: 900
+gpu_cores: 0
+ignore_columns: []
+investment: 20000
+join_columns:
+- Date
+join_columns_data: Dataframe with columns Index(['Date'], dtype='object') and size
+  (1581, 1)
+load_model: null
+loss: categorical_crossentropy
+loss_critic: mse
+memory_size: 32
+mode: train
+model_directory: D:/Thesis/bda-deep-rl/softmax-cce-adam/a2c-128-64/training\models
+n_stocks: 5
+nn_layers:
+- 128
+- 64
+optimizer: adam
+output: D:/Thesis/bda-deep-rl/softmax-cce-adam/a2c-128-64/training
+prices: 'numpy array of size (5,)
+
+  [ 3 20 37 54 71]'
+random_memory_sampling: false
+reward_directory: D:/Thesis/bda-deep-rl/softmax-cce-adam/a2c-128-64/training\rewards
+technical_indicators: true
+train_directory: D:/Thesis/bda-deep-rl/softmax-cce-adam/a2c-128-64/../../data/daily/
+train_file: null

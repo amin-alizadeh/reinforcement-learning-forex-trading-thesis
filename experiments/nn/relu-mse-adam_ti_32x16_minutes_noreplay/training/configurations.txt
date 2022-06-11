@@ -1,0 +1,48 @@
+_Configurations__run_size:
+  end: 4227
+  start: 0
+_Configurations__run_size_ratio:
+  end: 1.0
+  start: 0.0
+_from_column: true
+a2c: false
+bars: 10
+batch_size: 64
+cnn: false
+commission: 0.001
+cpu_cores: 4
+data: numpy array of size (4227, 85)
+data_as_df: false
+data_filter: Date>20210106 & Date<20210112
+episodes: 2000
+epsilon: 1.0
+epsilon_decay: 0.99999
+epsilon_end: 0.1
+epsilon_min: 0.05
+epsilon_start: 1.0
+epsilon_steps: 1800
+gpu_cores: 0
+ignore_columns: []
+investment: 20000
+join_columns:
+- Date
+- Timestamp
+join_columns_data: Dataframe with columns Index(['Date', 'Timestamp'], dtype='object')
+  and size (4243, 2)
+load_model: null
+memory_size: 64
+mode: train
+model_directory: /Users/aminalizadeh/workspace/bda-deep-rl/experiments/nn-32-16-minutes-no-replay-buffer/training/models
+n_stocks: 5
+nn_layers:
+- 32
+- 16
+output: /Users/aminalizadeh/workspace/bda-deep-rl/experiments/nn-32-16-minutes-no-replay-buffer/training
+prices: 'numpy array of size (5,)
+
+  [ 3 20 37 54 71]'
+random_memory_sampling: false
+reward_directory: /Users/aminalizadeh/workspace/bda-deep-rl/experiments/nn-32-16-minutes-no-replay-buffer/training/rewards
+technical_indicators: true
+train_directory: /Users/aminalizadeh/workspace/bda-deep-rl/experiments/nn-32-16-minutes-no-replay-buffer/../../data/minutes/
+train_file: null

@@ -1,0 +1,52 @@
+_Configurations__run_size:
+  end: 2802
+  start: 0
+_Configurations__run_size_ratio:
+  end: 1.0
+  start: 0.0
+_from_column: true
+a2c: true
+bars: 10
+batch_size: 32
+cnn: false
+commission: 0.001
+cpu_cores: 8
+data: numpy array of size (2802, 65)
+data_as_df: false
+data_filter: Date>20210107 & Date<20210112
+episodes: 2000
+epsilon: 1.0
+epsilon_decay: 0.99999
+epsilon_end: 0.1
+epsilon_min: 0.05
+epsilon_start: 1.0
+epsilon_steps: 1600
+gpu_cores: 0
+ignore_columns:
+- Open
+- Low
+- High
+- Volume
+investment: 20000
+join_columns:
+- Date
+- Timestamp
+join_columns_data: Dataframe with columns Index(['Date', 'Timestamp'], dtype='object')
+  and size (2817, 2)
+load_model: null
+memory_size: 10
+mode: train
+model_directory: D:/Thesis/bda-deep-rl/experiments/a2c-64x32-minutes/training\models
+n_stocks: 5
+nn_layers:
+- 64
+- 32
+output: D:/Thesis/bda-deep-rl/experiments/a2c-64x32-minutes/training
+prices: 'numpy array of size (5,)
+
+  [ 0 13 26 39 52]'
+random_memory_sampling: true
+reward_directory: D:/Thesis/bda-deep-rl/experiments/a2c-64x32-minutes/training\rewards
+technical_indicators: true
+train_directory: D:/Thesis/bda-deep-rl/experiments/a2c-64x32-minutes/../../data/minutes/
+train_file: null
